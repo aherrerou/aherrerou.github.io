@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adrián Herrero Bernabéu | Head of IT with interests in data science and process engineering. Showcase of personal projects.">
+  <title>Adrián Herrero Bernabéu | Projects</title>
+  <style>
+    /* Reset & Base Styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #333; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Container */
+    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+    /* Header */
+    header { text-align: center; padding: 30px 0; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header .subtitle { font-size: 1rem; color: #555; }
+
+    /* Projects Section */
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+    .project-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+    .project-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .project-card a.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #0066cc;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .project-card a.button:hover {
+      background: #005bb5;
+    }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px 0; margin-top: 40px; font-size: 0.9rem; color: #777; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>Adrián Herrero Bernabéu</h1>
+    <p class="subtitle">aherrerou | Head of IT | Data Science & Process Engineering</p>
+  </header>
+
+  <section class="projects container">
+    <!-- Example Project Card -->
+    <div class="project-card">
+      <h3><a href="https://github.com/aherrerou/project-one" target="_blank">Classroom Simulation with LLM Agents with LangChain and LangGraph</a></h3>
+      <p>A self-contained Python script that uses LangChain and LangGraph to simulate a realistic high-school math class. Three agent types interact in a fixed number of “rounds”</p>
+      <a href="https://github.com/aherrerou/students-simulator" class="button" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adrián Herrero Bernabéu. Hosted on GitHub Pages.</p>
+  </footer>
+</body>
+</html>
